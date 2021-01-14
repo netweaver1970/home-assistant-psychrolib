@@ -30,18 +30,22 @@ sensor:
         rel_hum: sensor.humidity_office
       ...
 
-Example configuration.yaml for moistairdensity calculation
+
+Example configuration.yaml for moistairdensity calculation.
 sensor:
-  - platform: dewpoint
+  - platform: moistairdensity
     sensors:
-      dewpoint_outside:
+      moistairdensity_outside:
         temperature: sensor.temperature_outside
         rel_hum: sensor.humidity_outside
-      dewpoint_office:
+        press: sensor.pressure_outside
+      moistairdensity_office:
         temperature: sensor.temperature_office
         rel_hum: sensor.humidity_office
+        press: sensor.pressure_office
       ...
 [TODO] format + enhance following block
+
 Configuration options
 Key	Type	Required	Description
 sensors	list	True	List of dewpoint sensors to generate.
