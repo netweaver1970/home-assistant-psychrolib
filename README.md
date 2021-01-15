@@ -3,7 +3,7 @@ The idea is to allow other people to use and/or enhance this component with extr
 I'm building further on the work of the home-assistant-dewpoint component, the reason I started this from scratch ( copy/paste/change) was because the original component name was too restrictive.
 The method I'll use to incorporate extra functionality might not be the best nor quickest but it's one that hopefully will work.
 While building I might find out that I need to change things completely around.
-This is my one of my multiple side projects, so it'll get time when I want to try something new
+This is my one of my multiple side projects, so it will get time when I want to try something new
   
 Feel free to comment.
 
@@ -11,9 +11,10 @@ Feel free to comment.
 HomeAssistant wrapper for Psychrometric calculations, provided by psychrolib
 
 Home Assistant custom component to calculate multiple moist/dry air parameters, using temperature, humidity and pressure sensor(s).
-Currently forseen
+Currently forseen:
 - dew point (the hopefully working base, the original idea)
 - moist air density (my personal itch to scratch)
+- inside air quality moisture evaluation (using Van Der Kooi diagram), needs moist air density
 
 Installation
 Use hacs with this repo URL https://github.com/netweaver1970/home-assistant-psychrolib or copy custom_components/ folder to your HA configuration.
