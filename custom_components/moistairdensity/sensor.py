@@ -1,7 +1,7 @@
 """
 Calculate Moist Air Density based on temperature, humidity and pressure sensor(s)
 For more details about this platform, please refer to the documentation
-https://github.com/netweaver1970/home-assistant-psychro
+https://github.com/netweaver1970/home-assistant-psychrolib
 """
 
 import logging
