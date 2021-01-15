@@ -1,0 +1,8 @@
+{
+  "domain": "moistairdensity",
+  "name": "moistairdensity Sensor Calculator",
+  "documentation": "https://github.com/netwaever1970/home-assistant-psychro",
+  "dependencies": [],
+  "codeowners": ["@mnetweaver1970"],
+  "requirements": ["psychrolib==2.1.0"]
+}
